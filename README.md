@@ -14,8 +14,7 @@ This is a MQTT client for the browser.
 
 * npm install mqtt --save
 
-* npm install -g browserify // install browserify
+* npm install -g browserify 
 * cd node_modules/mqtt
-* npm install . // install dev dependencies
-* browserify mqtt.js -s mqtt > browserMqtt.js // require mqtt in your client-side app
-
+* npm install . 
+* browserify mqtt.js -s mqtt > browserMqtt.js 
