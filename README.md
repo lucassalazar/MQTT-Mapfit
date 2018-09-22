@@ -4,9 +4,9 @@ This is a MQTT client for the browser.
 
 ## How it works:
 
-1. The client must be configured to connect with a broker MQTT (It can be Mosquitto) of your preference.
+* The client must be configured to connect with a broker MQTT (It can be Mosquitto) of your preference.
 
-..*(Obs: The broker have to be configured to connect through Websockets)
+* (Obs: The broker have to be configured to connect through Websockets)
 
-2. Once the connection is made, the client will be capable of receiving coordinate data and print the geolocalization to the map.
+* Once the connection is made, the client can receive coordinate data from other clients and print the geolocalization on the map.
 
